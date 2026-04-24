@@ -184,14 +184,16 @@ def main(page: ft.Page):
         render_metrics()
 
     def add_process(_):
-        pid = pid_field.value.strip()
+        pid = (pid_field.value or "").strip()
         if not pid:
             show_error("PID cannot be empty")
             return
 
+        arrival_text = arrival_field.value or ""
+        burst_text = burst_field.value or ""
         try:
-            arrival = int(arrival_field.value)
-            burst = int(burst_field.value)
+            arrival = int(arrival_text)
+            burst = int(burst_text)
         except (TypeError, ValueError):
             show_error("Arrival and Burst must be numbers")
             return
