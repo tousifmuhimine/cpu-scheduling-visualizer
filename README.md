@@ -172,7 +172,3 @@ This project is open-source under the **MIT License**.
 
 ---
 
-## 👤 Author
-
-**Aisha Akter**
-- GitHub: [@Nishaaan31](https://github.com/Nishaaan31)
