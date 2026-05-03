@@ -174,6 +174,5 @@ This project is open-source under the **MIT License**.
 
 ## 👤 Author
 
-**Tousif Muhimine**
-- GitHub: [@tousifmuhimine](https://github.com/tousifmuhimine)
-- Repository: [CPU-Scheduling-Visualizer](https://github.com/tousifmuhimine/CPU-Scheduling-Visualizer)
+**Aisha Akter**
+- GitHub: [@Nishaaan31](https://github.com/Nishaaan31)
